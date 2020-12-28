@@ -19,6 +19,6 @@ eqr()
 last_time = time.time()
 
 while True:
-    if last_time+60<time.time():
+    if last_time+65<time.time():
         eqr()
         last_time=time.time()
